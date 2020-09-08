@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(17, 20, 22); /* se la da un color al fondo del cuerpo */
+  margin: 0;
+}
+
+h1.title {
+  background-color: rgba(5, 23, 29, 0.5); /* se le agrega un  */
+  border: 1px solid black;
+  border-radius: 5px;
+  color: beige;
+  margin: 25px 50px 75px;
+}
+
+nav {
+  /* height: 100px; */
+  width: 100;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  padding: 1rem;
+}
+
+.title {
+  font-size: 30px;
+  color: darkgray;
+}
+
+#hero-home {
+  height: 720px;
+  width: 100%;
+  background-image: url("https://placeimg.com/1280/720/tech");
+  background-repeat: no-repeat; /* no se repite la imagen */
+  background-attachment: fixed; /* La propiedad especifica si la imagen de fondo debe desplazarse o ser fija (no se desplazará con el resto de la página). */
+  background-position: center; /* el fondo se posiciona al centro */
+  display: flex;
+  justify-content: center; /* justfica el contenido al centro */
+  align-items: center; /* alinea el texto al centro */
+}
